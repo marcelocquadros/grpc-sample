@@ -24,7 +24,7 @@ func main() {
 	res, err := svc.Sum(context.Background(), req)
 
 	if err != nil {
-		fmt.Println("Error caling server")
+		fmt.Println("Error calling the server")
 		return
 	}
 
@@ -33,7 +33,7 @@ func main() {
 	res, err = svc.Multiply(context.Background(), req)
 
 	if err != nil {
-		fmt.Println("Error caling server")
+		fmt.Println("Error calling the server")
 		return
 	}
 
